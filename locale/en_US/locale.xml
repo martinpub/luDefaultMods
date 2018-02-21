@@ -12,6 +12,6 @@
   -->
 
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.themes.luSiteTheme.name">Default, LU mods</message>
-	<message key="plugins.themes.luSiteTheme.description">Default-based theme with LU-specific mods.</message>
+	<message key="plugins.themes.luDefaultMods.name">Default Theme + LU mods</message>
+	<message key="plugins.themes.luDefaultMods.description">Default-based theme with LU-specific mods.</message>
 </locale>

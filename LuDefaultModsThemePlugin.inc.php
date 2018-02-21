@@ -23,6 +23,7 @@ class LuDefaultModsThemePlugin extends ThemePlugin {
 	 */
 	public function init() {
 		$this->setParent('defaultthemeplugin');
+		$this->modifyStyle('stylesheet', array('addLess' => array('styles/lu.less')));
 	}
 
 	/**
@@ -30,7 +31,7 @@ class LuDefaultModsThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return __('plugins.themes.luDefaultModsTheme.name');
+		return __('plugins.themes.luDefaultMods.name');
 	}
 
 	/**
@@ -38,7 +39,7 @@ class LuDefaultModsThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return __('plugins.themes.luDefaultModsTheme.description');
+		return __('plugins.themes.luDefaultMods.description');
 	}
 }
 
