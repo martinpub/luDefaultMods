@@ -2,7 +2,7 @@
 <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
-  * plugins/themes/lu_default_mods/locale/en_US/locale.xml
+  * plugins/themes/lu_default_mods/locale/sv_SE/locale.xml
   *
   * Copyright (c) 2014-2018 Simon Fraser University
   * Copyright (c) 2003-2018 John Willinsky
@@ -11,7 +11,7 @@
   * Localization strings
   -->
 
-<locale name="en_US" full_name="U.S. English">
-	<message key="plugins.themes.luDefaultMods.name">Default Theme + LU mods</message>
-	<message key="plugins.themes.luDefaultMods.description">Default-based theme with LU-specific mods.</message>
+<locale name="sv_SE" full_name="Svenska">
+	<message key="plugins.themes.luDefaultMods.name">Default-tema + LU mods</message>
+	<message key="plugins.themes.luDefaultMods.description">Tema baserat på Default som innehåller LU-specifika modifikationer.</message>
 </locale>
